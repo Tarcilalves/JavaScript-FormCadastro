@@ -17,6 +17,7 @@ Este é um projeto que visa criar um formulário de cadastro utilizando HTML, CS
 
 # Acesso ao projeto
 
+https://tarcilalves.github.io/JavaScript-FormCadastro/
 
 <h2> Estrutura do Formulário </h2>
 O formulário será desenvolvido em um documento HTML, com a estrutura básica do formulário e os campos necessários para o cadastro. Abaixo está a estrutura inicial do formulário:
