@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>FORMULÁRIO</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+<body>
+    <div class="o-body">
+        <header>
+            <div class="o-header"> 
+                <h1 class="form__title">
+                    Criar uma Conta
+                </h1>  
+            </div>
+        </header>
+        <main>
+            <div class="o-main">
+                <form id="form" class="form" action="" method="">                  
+
+                    <!--CAMPO NOME USUÁRIO-->
+                    <div class="form-control">
+                        <!-- Label: Rótulos para os campos de entrada.-->
+                        <label for="username" class="input">Nome de usuário</label>
+                        <!-- input: Campos de entrada para o nome e o email.-->
+                        <input id="username" type="text" title="form"  placeholder="Digite seu nome de usuário">
+                        <!--ícones-->
+                        <!--ícones de error-->
+                        <i class="fas fa-exclamation-circle"></i> 
+                        <!--ícones de sucessor-->
+                        <i class="fas fa-check-circle"></i>
+                        <!--Smal: vai apresentar a mensagem de erro.-->
+                        <small></small>
+                    </div>
+
+                     <!--CAMPO E-MAIL-->
+                     <div class="form-control">
+                        <label for="email" class="input">E-mail</label>
+                        <input id="email" type="text" title="form" placeholder="Digite seu e-mail">
+                        <!--ícones-->
+                        <i class="fas fa-exclamation-circle"></i> 
+                        <i class="fas fa-check-circle"></i>
+                        <small></small>
+                    </div>
+
+                    <!--CAMPO SENHA-->
+                    <div class="form-control s">
+                        <label for="password" class="input">Senha</label>
+                        <input id="password" type="password" title="form" placeholder="Digite sua a senha">
+                        <!--ícones-->
+                        <i class="fas fa-exclamation-circle"></i> 
+                        <i class="fas fa-check-circle"></i>
+                        <small></small>
+                    </div>
+
+                     <!--CAMPO  CONFIRMAR SENHA-->
+                     <div class="form-control">
+                        <label for="password-confirmation" class="input">Confirmar Senha</label>
+                        <input id="password-confirmation" type="password" title="form" placeholder="Digite sua a senha novamente">
+                        <!--ícones-->
+                        <i class="fas fa-exclamation-circle"></i> 
+                        <i class="fas fa-check-circle"></i>
+                        <small></small>
+                    </div>
+
+                    <!--BUTTON -->
+                    <button class="form__button" type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+       
+
+    <!--Para usar os ícones do fontawesome-->
+    <script src="https://kit.fontawesome.com/a16db42ac1.js" crossorigin="anonymous"></script>
+        
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
